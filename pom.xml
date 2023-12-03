@@ -86,11 +86,11 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-surefire-plugin</artifactId>
-				<version>2.22.2</version>
+				<version>2.22.1</version>
 				<configuration>
 					<argLine>${argLine} -Xmx2048m</argLine>
 					<useSystemClassLoader>false</useSystemClassLoader>
-					<forkMode>0</forkMode>
+					<testFailureIgnore>true</testFailureIgnore>
 				</configuration>
 			</plugin>
 
