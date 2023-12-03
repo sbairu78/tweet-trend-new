@@ -13,7 +13,7 @@ pipeline {
         stage("build"){
             steps {
                 echo "----------- build started ----------"
-                sh 'mvn clean deploy -dforkcount=0'
+                sh 'mvn clean deploy'
                 echo "----------- build complted ----------"
             }
         }
