@@ -89,7 +89,8 @@
 				<version>2.22.2</version>
 				<configuration>
 					<argLine>${argLine} -Xmx2048m</argLine>
-					<forkMode>once</forkMode>
+					<useSystemClassLoader>false</useSystemClassLoader>
+					<forkMode>0</forkMode>
 				</configuration>
 			</plugin>
 
