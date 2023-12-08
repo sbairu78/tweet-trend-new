@@ -1,6 +1,6 @@
 def registry = 'https://bsktech.jfrog.io/'
 def imageName = 'bsktech.jfrog.io/bsk-docker-local/ttrend'
-def version   = '2.1.2'
+def version   = '2.1.3'
 pipeline {
     agent {
         node {
